@@ -331,7 +331,7 @@
   const confidenceMeter = document.getElementById('confidenceMeter');
 
   // Your Teachable Machine model link
-  const MODEL_URL = "https://teachablemachine.withgoogle.com/models/OPgf1plZW/";
+  const MODEL_URL = "https://teachablemachine.withgoogle.com/models/ffG6J3JxR/";
 
   let model;
 
@@ -410,6 +410,39 @@
     { keywords: ["cemara laut", "equisetifolia"], name: "Australian Pine (Sea Cypress)", scientific: "Casuarina equisetifolia",
       description: "Further information not yet available.",
       innovation: ["Further information not yet available."] }
+   
+    { keywords: ["serunai","sphagneticola"], name: "Singapore Daisy", scientific: "Sphagneticola trilobata",
+      description: "A hardy,low-performing ground cover plant with creeping growth habits.",
+      innovation: ["Planted on hillsides or slopes to prevent soil erosion because its roots grip the soil tightly."] }
+
+    { keywords: ["pudina","mentha spp"], name: "Mint", scientific: "Mentha spp",
+      description: "A popular aromatic herb known for its refreshing scent and bright green.",
+      inovation: ["Allows harvesting of fresh mint leaves for cooking in narrow spaces while keeping its roots from spreading everywhere."] }
+   
+    { keywords: ["kemunting cina","roseus"], name: "Madagascar Periwinkle", scientific: "Catharanthus roseus",
+      description: "A heat and drought resistant plant that produces pink or white flowers with a dark red center.",
+      inovation: ["Arranged in painted used tin cans according to its flower color tones."] }
+
+    { keywords: ["Brasil","hederaceum"], name: "Philodendron Brasil", scientific: "Philodendron hederaceum Brasil",
+      description: "A trailing plant with heart shaped leaves featuring unique variegated patterns of lime green,yellow.",
+      inovation: ["Trained to climb on a metal mesh or geometric wooden frame hung on wall."] }
+
+    { keywords: ["pegaga","centtela"], name: "Dollar Plant", scientific: "Centtela asiatica",
+      description: "A perennial creeping plant with small,rounded leaves resembling tiny umbrellas or coins.",
+      inovation: ["Placed inside a mini aquarium glass container act as a natural biological water filter."] }
+
+    { keywords: ["Hujan Panas","Cuphea"], name: "False Heather", scientific: "Cuphea hyssopifolia",
+      description: "A compact subshrub with dense,small dark green leaves and tiny purple or pink flowers blooming continuously.",
+      inovation: ["Suitable as a small-scale fantasy landscape decoration element."] }
+
+    { keywords: ["jew","Zebrina"], name: "Wandering Jew", scientific: "Tradescantia zebrina",
+      description: "A hanging decorative plant with semi-succulent leaves featuring purple silver stripes on top and magenta underneath.",
+      inovation: ["Paired with small solar-powered LED fairy lights wrapped around its stems to highlight it at night."] }
+
+    { keywords: ["vicks","tomentosa"], name: "Vicks plant", scientific: "Plectranthus tomentosa",
+      description: "A thick-leaved succulent-type herb that is fuzzy,soft,releases a comforting menthol scent when rubbed.",
+      inovation: "Placed in a community or school sensory garden corner."] }
+  
   ];
 
   function matchPlant(modelLabel){
